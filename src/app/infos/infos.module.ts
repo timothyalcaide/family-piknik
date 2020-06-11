@@ -1,20 +1,19 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-
-import { IonicModule } from '@ionic/angular';
-
-import { InfosPageRoutingModule } from './infos-routing.module';
-
-import { InfosPage } from './infos.page';
+import { CommonModule } from "@angular/common";
+import { NgModule } from "@angular/core";
+import { FormsModule } from "@angular/forms";
+import { IonicModule } from "@ionic/angular";
+import { SharedModule } from "../shared/shared.module";
+import { InfosPageRoutingModule } from "./infos-routing.module";
+import { InfosPage } from "./infos.page";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InfosPageRoutingModule
+    InfosPageRoutingModule,
+    SharedModule,
   ],
-  declarations: [InfosPage]
+  declarations: [InfosPage],
 })
 export class InfosPageModule {}

@@ -13,27 +13,27 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: "A propos",
-      url: "/About",
+      url: "/about",
       icon: "happy",
     },
     {
       title: "Galerie",
-      url: "/Galerie",
+      url: "/galerie",
       icon: "images",
     },
     {
       title: "Line up",
-      url: "/Line-up",
+      url: "/line-up",
       icon: "book",
     },
     {
       title: "Infos pratique",
-      url: "/Infos",
+      url: "/infos",
       icon: "information-circle",
     },
     {
       title: "Contact",
-      url: "/Contact",
+      url: "/contact",
       icon: "mail",
     },
   ];
